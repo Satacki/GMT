@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "great_magical_tree",
+  "version": "${version}",
+  "name": "Great Magical Tree",
+  "description": "The Tree of Heaven greet you.",
+  "authors": ["Lykos"],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/great_magical_tree/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "net.lykos.great_magical_tree.GMTDataGenerator"
+    ],
+    "client": [
+      "net.lykos.great_magical_tree.GMTModClient"
+    ],
+    "main": [
+      "net.lykos.great_magical_tree.GMT"
+    ]
+  },
+  "mixins": [
+    "great_magical_tree.mixins.json",
+    {
+      "config": "great_magical_tree.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.17.2",
+    "fabric": "*",
+    "minecraft": "1.20.1"
+  }
+}
