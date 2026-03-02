@@ -1,0 +1,7 @@
+{
+  "type": "gmt:void",
+  "generator": {
+    "type": "gmt:void_chunk_generator",
+    "biome": "gmt:void_biome"
+  }
+}

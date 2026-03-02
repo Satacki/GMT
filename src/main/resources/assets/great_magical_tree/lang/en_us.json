@@ -1,0 +1,13 @@
+{
+  "itemgroup.gmt_tab": "GMT",
+  "item.gmt.ring_of_radiance": "Ring of Radiance",
+  "item.gmt.ring_of_radiance.tooltip": "A ring that purify and burn phantom. It's power is to raw for you to put it on right now.",
+  "item.gmt.ring_of_radiance.tooltip.shiftkey": "Yes. This is a Hollow Knight Reference.",
+  "gmt.void.fell_into_void": "█: You have fallen into the void, welcome to The Event Horizon or the Outer Shell of the Void.",
+  "gmt.void.cannot_break_blocks": "█: This is the Void. You cannot exactly break 'nothing'",
+  "gmt.void.cannot_place_blocks": "█: Don't try to get Their attention. You are already lucky to be Alive.",
+  "gmt.death.void.consumed": "%s was consumed by the Void.",
+  "gmt.death.void.azrael_toy": "%s's vessel is now Azraël's toy.",
+  "gmt.death.void.entropy": "%s is nothing but Entropy.",
+  "gmt.death.void.soul_couldnt_support": "The soul of %s couldn't support the Void."
+}
